@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+    position:relative;
+    padding: 30px 0;
+    width: 100%;
+    font-family: 'Ubuntu',sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar .sticky{
+    padding: 30px 0;
+    background: crimson;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a span{
+    color: crimson;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3 ease;
+}
+
+.navbar .menu li a:hover{
+    color: crimson;
+}
+.home{
+    display: flex;
+    background: url("images/coffee.jpg")no-repeat right ;
+    /* background-size: 1400px; */
+    height: 100vh;
+    color: white;
+    min-height: 500 px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.quote span{
+    color: crimson;
+}
+
+
+.home .max-width{
+    margin:  auto 0 auto 40px;
+}
+.home .home-content .text-1{
+
+        font-size: 15px;
+}
+.home .home-content .text-2{
+        font-size: 75px;
+        font-weight: 600;
+        margin-left: -3px;
+}
+.home .home-content .text-3{
+        font-size: 27px;
+        margin: 5px 0;
+        
+}
+.home .home-content .text-3 a {
+
+    transition: color 0.3 ease;
+}
+.home .home-content .text-3 a:hover{
+    color: crimson;
+}
+
+.About .here a:hover{
+    color: crimson;
+}
+.About .here a{
+    color: white;
+    font-size: 27px;
+}
+.About .here a span{
+    color: blueviolet;
+}
+.Skills .here a:hover{
+    color: crimson;
+}
+.Skills .here a{
+    color: white;
+
+    font-size: 27px;
+}
+.Skills .here a span{
+
+    color: blueviolet;
+
+}
+
+
+.Contacts .here a{
+    color: white;
+    font-size: 27px;
+}
+
+.Contacts .here a span{
+    color: blueviolet;
+}
+.Contacts .here a:hover{
+    color: crimson;
+}
+
+.bottom p{
+    font-size: 27px;
+}
